@@ -1,0 +1,5 @@
+node_modules
+*.exe
+*lock.json
+.vscode
+dist
