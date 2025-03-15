@@ -2,7 +2,12 @@ import { createInterface } from "node:readline";
 import process from "node:process";
 
 type Pizza = { name: string; price: number };
-type Order = { id: number; name: string; price: number; status: "ordered" | "completed" };
+type Order = {
+  id: number;
+  name: string;
+  price: number;
+  status: "ordered" | "completed";
+};
 
 const menu: Pizza[] = [
   { name: "cheese", price: 5 },
