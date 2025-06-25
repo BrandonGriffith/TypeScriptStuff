@@ -1,6 +1,7 @@
 import { createInterface } from "node:readline";
 import process from "node:process";
 
+
 type Pizza = { name: string; price: number };
 type Order = {
   id: number;
